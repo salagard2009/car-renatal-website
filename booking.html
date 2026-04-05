@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Booking</title>
+
+<style>
+body { margin:0; font-family:Arial; }
+header { background:black; color:white; text-align:center; padding:15px; }
+nav a { color:white; margin:10px; text-decoration:none; }
+
+.booking { text-align:center; padding:40px; }
+
+.booking input, select {
+    display:block;
+    margin:10px auto;
+    padding:10px;
+    width:200px;
+}
+
+button {
+    background:green;
+    color:white;
+    padding:10px;
+    border:none;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>Book Car</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="cars.html">Cars</a>
+<a href="booking.html">Booking</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<section class="booking">
+<form>
+<input type="text" placeholder="Name" required>
+<input type="date" required>
+
+<select>
+<option>Select Car</option>
+<option>Swift</option>
+<option>Creta</option>
+<option>BMW</option>
+</select>
+
+<button>Book Now</button>
+</form>
+</section>
+
+</body>
+</html>
